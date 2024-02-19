@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/TEST.dir/1.cpp.obj"
+  "CMakeFiles/TEST.dir/1.cpp.obj.d"
+  "CMakeFiles/TEST.dir/202.cpp.obj"
+  "CMakeFiles/TEST.dir/202.cpp.obj.d"
+  "CMakeFiles/TEST.dir/205.cpp.obj"
+  "CMakeFiles/TEST.dir/205.cpp.obj.d"
+  "CMakeFiles/TEST.dir/228.cpp.obj"
+  "CMakeFiles/TEST.dir/228.cpp.obj.d"
+  "CMakeFiles/TEST.dir/242.cpp.obj"
+  "CMakeFiles/TEST.dir/242.cpp.obj.d"
+  "CMakeFiles/TEST.dir/289.cpp.obj"
+  "CMakeFiles/TEST.dir/289.cpp.obj.d"
+  "CMakeFiles/TEST.dir/290.cpp.obj"
+  "CMakeFiles/TEST.dir/290.cpp.obj.d"
+  "CMakeFiles/TEST.dir/36.cpp.obj"
+  "CMakeFiles/TEST.dir/36.cpp.obj.d"
+  "CMakeFiles/TEST.dir/383.cpp.obj"
+  "CMakeFiles/TEST.dir/383.cpp.obj.d"
+  "CMakeFiles/TEST.dir/48.cpp.obj"
+  "CMakeFiles/TEST.dir/48.cpp.obj.d"
+  "CMakeFiles/TEST.dir/49.cpp.obj"
+  "CMakeFiles/TEST.dir/49.cpp.obj.d"
+  "CMakeFiles/TEST.dir/54.cpp.obj"
+  "CMakeFiles/TEST.dir/54.cpp.obj.d"
+  "CMakeFiles/TEST.dir/56.cpp.obj"
+  "CMakeFiles/TEST.dir/56.cpp.obj.d"
+  "CMakeFiles/TEST.dir/73.cpp.obj"
+  "CMakeFiles/TEST.dir/73.cpp.obj.d"
+  "CMakeFiles/TEST.dir/76.cpp.obj"
+  "CMakeFiles/TEST.dir/76.cpp.obj.d"
+  "CMakeFiles/TEST.dir/main.cpp.obj"
+  "CMakeFiles/TEST.dir/main.cpp.obj.d"
+  "TEST.exe"
+  "TEST.exe.manifest"
+  "TEST.pdb"
+  "libTEST.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/TEST.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
