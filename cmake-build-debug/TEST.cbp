@@ -82,51 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/code/C/my_algorithm/1.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/202.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/205.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/228.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/242.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/289.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/290.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/36.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/383.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/48.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/49.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/54.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/56.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/73.cpp">
-			<Option target="TEST"/>
-		</Unit>
-		<Unit filename="E:/code/C/my_algorithm/76.cpp">
-			<Option target="TEST"/>
-		</Unit>
 		<Unit filename="E:/code/C/my_algorithm/main.cpp">
 			<Option target="TEST"/>
 		</Unit>

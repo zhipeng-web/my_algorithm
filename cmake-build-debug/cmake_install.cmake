@@ -1,4 +1,4 @@
-# Install script for directory: E:/code/C/TEST
+# Install script for directory: E:/code/C/my_algorithm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/code/C/TEST/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/code/C/my_algorithm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
