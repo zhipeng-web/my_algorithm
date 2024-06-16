@@ -3,7 +3,7 @@
 //
 #include "iostream"
 #include "vector"
-#include "queue"
+#include "stack"
 using namespace std;
 
 struct TreeNode {
@@ -17,18 +17,21 @@ struct TreeNode {
 
 class Solution {
 public:
-    vector<int> answer;
-    void dfs(TreeNode *root){
-        if(root == nullptr)
-            return;
-        dfs(root->left);
-        answer.push_back(root->val);
-        dfs(root->right);
-    }
     vector<int> inorderTraversal(TreeNode* root) {
-        if(root == nullptr)
-            return {};
-        dfs(root);
+        vector<int> answer;
+        stack<TreeNode*> stack1;
+        TreeNode* cur = root;
+        while (cur != nullptr || !stack1.empty()){
+            if (cur!= nullptr){ // 指针来访问节点，访问到最底层
+                stack1.push(cur);// 将访问的节点放进栈
+                cur = cur->left;//  左
+            } else{
+                cur = stack1.top(); // 从栈里弹出的数据，就是要处理的数据（放进ans数组里的数据）
+                stack1.pop();
+                answer.push_back(cur->val);//中
+                cur=cur->right;// 右
+            }
+        }
         return answer;
     }
 };
