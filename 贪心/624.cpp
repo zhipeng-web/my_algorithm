@@ -9,6 +9,7 @@ public:
     static bool cmp(pair<int, int> &a, pair<int, int> &b){ //升序排序
         return a.first>b.first;
     }
+
     int maxDistance(vector<vector<int>>& arrays) {
         int ans = 0;
         vector<pair<int, int>> max_nums;//每个数组的最大值,和数组编号
